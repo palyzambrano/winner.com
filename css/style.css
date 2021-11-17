@@ -51,7 +51,7 @@ body{
 .card-services{
   padding: 0;
   margin-top: 0;
-  background-image: url(../img/bg-services.png);
+  background-image: url(../img/section-2/bg-services-card.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -137,12 +137,12 @@ body{
 }
 
 .diamond-left {
-  border-color: red;
+  border-color: #7D7E7F;
   margin-left: 10px;
 }
 
 .diamond-right {
-  border-color: red;
+  border-color: #7D7E7F;
   margin-left: -10px;
 }
 
@@ -156,11 +156,11 @@ body{
 }
 
 .diamond-center svg {
-  fill: red;
+  fill: #FE3A3B;
 }
 
 .diamond-center:hover {
-  background-color: red;
+  background-color: #FE3A3B;
 }
 
 .diamond-center:hover svg {
@@ -231,7 +231,7 @@ body{
 }
 
 .ul-pricing {
-  list-style: square inside url('../img/star-pricing.png');
+  list-style: square inside url('../img/section-6/star-pricing.png');
   padding-left: 10px;
   padding-top: 20px;
 }
@@ -250,6 +250,35 @@ body{
 
 .btn-pricing:hover{
   color:#FFFFFF
+}
+
+.mg-card-offer {
+  margin-bottom: 10px;
+}
+
+.card-offer{
+  background-color: #FFFFFF;
+}
+
+.icon-offer{
+  background-color: #FE3A3B;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 30px auto 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #FFFFFF;
+}
+.card-offer:hover{
+  background-color: #FE3A3B;
+  color: #FFFFFF;
+}
+
+.card-offer:hover .icon-offer{
+  background-color: #FFFFFF;
+  fill: #FE3A3B;
 }
 
 .bg-search {
