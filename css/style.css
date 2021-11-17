@@ -103,7 +103,6 @@ body{
 
 .card-figure-icon {
   align-items: center;
-  border: 1px solid gold;
   display: flex;
   justify-content: center;
   height: 200px;
@@ -121,7 +120,6 @@ body{
 
 .diamond-container {
   align-items: center;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   height: 200px;
@@ -144,8 +142,29 @@ body{
 }
 
 .diamond-right {
-  border-color: blue;
+  border-color: red;
   margin-left: -10px;
+}
+
+.diamond-center {
+  align-items: center;
+  border-color: transparent;
+  display: flex;
+  height: 105px;
+  justify-content: center;
+  width: 105px;
+}
+
+.diamond-center svg {
+  fill: red;
+}
+
+.diamond-center:hover {
+  background-color: red;
+}
+
+.diamond-center:hover svg {
+  fill: white;
 }
 
 .bg-gray-p{
