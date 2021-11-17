@@ -101,7 +101,16 @@ body{
   border: none;
 }
 
-/*
+.card-figure-icon {
+  align-items: center;
+  border: 1px solid gold;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  margin: 0 auto;
+  width: 200px;
+}
+
 .diamond {
   border-style: solid;
   border-width: 1px;
@@ -111,26 +120,16 @@ body{
 }
 
 .diamond-container {
-  position: relative;
-  margin: auto;
-  width: 150px;
-}
-
-.diamond-center {
   align-items: center;
-  border-color: transparent;
+  border: 1px solid red;
   display: flex;
   justify-content: center;
-  height: 100px;
-  position: absolute;
-  top: 10px;
-  width: 100px
+  height: 200px;
+  width: 200px;
 }
 
 .diamond span {
   transform: rotate(-45deg);
-  display: flex;
-  align-items: center;
 }
 
 .diamond-left,
@@ -141,29 +140,13 @@ body{
 
 .diamond-left {
   border-color: red;
-  margin-left: -20px;
+  margin-left: 10px;
 }
 
 .diamond-right {
   border-color: blue;
-  margin-right: -40px;
+  margin-left: -10px;
 }
-
-<!--
-                  <div class="diamond-container">
-                    <div class="diamond diamond-left"></div>
-                    <div class="diamond diamond-right"></div>
-                    <div class="diamond diamond-center">
-                      <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="33.75" height="31.5" viewBox="0 0 33.75 31.5">
-                          <path id="Icon_awesome-css3" data-name="Icon awesome-css3" d="M33.75,2.25l-4.5,25.875-15.7,5.625L0,28.125l1.378-6.666H7.144l-.562,2.855,8.184,3.122,9.429-3.122,1.322-6.827H2.074L3.2,11.721H26.663L27.4,8.016H3.959L5.1,2.25H33.75Z" transform="translate(0 -2.25)"/>
-                        </svg>
-                      </span>
-                    </div>
-                  </div>
-                -->
-
-*/
 
 .bg-gray-p{
   background-color: #F2F2F3;
