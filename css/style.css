@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600&display=swap');
 
-body{
+body {
   font-family: 'Raleway', sans-serif;
 }
 
-.title-section-primary{
+.title-section-primary {
   font-weight: 600;
   font-size: 36px;
 }
@@ -21,11 +21,10 @@ body{
   width: 50px;
 }
 
-.title-section-secondary{
+.title-section-secondary {
   font-weight: 600;
   font-size: 36px;
 }
-
 
 .title-section-secondary::after {
   background-color: #FFFFFF;
@@ -35,6 +34,111 @@ body{
   margin-bottom: 3rem;
   height: .35rem;
   width: 50px;
+}
+
+.box-header-login {
+  margin: 10px auto;
+  padding: 0;
+}
+
+.box-rrss-p{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon-rrss-p {
+  background-color: #7D7E7F;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #FFFFFF;
+  height: 40px;
+  padding: 10px;
+  width: 40px;
+}
+
+.icon-rrss-p :hover {
+  fill: #FE3A3B;
+  background-color: aqua;
+}
+
+.box-login {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn-login {
+  background-color: #FFFFFF;
+  color:#2e2e2e;
+}
+
+.btn-login:hover,
+.btn-login:focus {
+  background-color: #FE3A3B;
+  color: #FFFFFF;
+  box-shadow: none;
+}
+
+.bg-header-p {
+  background-color: #2e2e2e;
+  padding: 20px;
+}
+
+.logo-primary {
+  margin: 0;
+}
+
+.logo-primary svg{
+  fill: #FFFFFF;
+}
+
+.logo-primary svg:hover {
+  fill: #FE3A3B;
+}
+
+.color-link-header {
+  color:#FFFFFF;
+}
+
+.color-link-header:hover {
+  color: #FE3A3B;
+}
+
+header nav li:last-of-type {
+  margin-left: 30px;
+}
+
+.icon-search-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+}
+
+.icon-search-p  {
+  height: 35px;
+  transform: rotate(45deg);
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-search-p svg {
+  transform: rotate(-45deg);
+  fill: #FFFFFF;
+}
+
+.icon-search-p:hover{
+  background-color: #CECFD0;
+}
+
+.icon-search-p:hover svg,
+.icon-search-p:hover svg:hover{
+  fill: #2e2e2e;
 }
 
 .bg-gradient-p {
@@ -48,7 +152,7 @@ body{
   padding-bottom: 20px;
 }
 
-.card-services{
+.card-services {
   padding: 0;
   margin-top: 0;
   background-image: url(../img/section-2/bg-services-card.png);
@@ -92,9 +196,8 @@ body{
   fill: #FFFFFF;
 }
 
-.text-services{
+.text-services {
   padding: 30px 20px 50px 20px;
-
 }
 
 .card-about {
@@ -167,12 +270,12 @@ body{
   fill: white;
 }
 
-.bg-gray-p{
+.bg-gray-p {
   background-color: #F2F2F3;
   padding-bottom: 50px;
 }
 
-.bg-gradient-black-p{
+.bg-gradient-black-p {
   background: rgb(50,113,139);
   background: linear-gradient(90deg, rgba(50,113,139,1) 0%, rgba(0,0,0,1) 25%, rgba(61,61,61,1) 68%, rgba(153,153,153,1) 100%);
   padding: 50px 0;
@@ -192,7 +295,7 @@ body{
   color: #FFFFFF;
 }
 
-.tab-chips-text:hover{
+.tab-chips-text:hover {
   color: #FFFFFF;
 }
 
@@ -213,7 +316,7 @@ body{
   border-radius: 0.25rem;
 }
 
-.box-title-pricing{
+.box-title-pricing {
   border-bottom: 1px solid #CECFD0;
 }
 
@@ -222,6 +325,7 @@ body{
   width: 70%;
   margin: 25px auto;
   padding: 8px;
+  transition-duration: 0.5s;
 }
 
 .pricing {
@@ -235,6 +339,7 @@ body{
   padding-left: 10px;
   padding-top: 20px;
 }
+
 .ul-pricing li {
   padding: 5px 0;
 }
@@ -248,19 +353,47 @@ body{
   margin-top: 10px;
 }
 
-.btn-pricing:hover{
+.btn-pricing:hover {
   color:#FFFFFF
 }
+
+.title-member{
+  font-weight: 600;
+}
+
+.subtitle-member {
+  color: #FE3A3B;
+}
+
+.icon-member-p {
+  background-color: #CECFD0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #7D7E7F;
+  height: 40px;
+  padding: 10px;
+  width: 40px;
+  margin: 5px;
+}
+
+.icon-member-p:hover {
+  background-color: #FE3A3B;
+  fill: #FFFFFF;
+  
+}
+
 
 .mg-card-offer {
   margin-bottom: 10px;
 }
 
-.card-offer{
+.card-offer {
   background-color: #FFFFFF;
 }
 
-.icon-offer{
+.icon-offer {
   background-color: #FE3A3B;
   border-radius: 50%;
   width: 100px;
@@ -271,12 +404,12 @@ body{
   align-items: center;
   fill: #FFFFFF;
 }
-.card-offer:hover{
+.card-offer:hover {
   background-color: #FE3A3B;
   color: #FFFFFF;
 }
 
-.card-offer:hover .icon-offer{
+.card-offer:hover .icon-offer {
   background-color: #FFFFFF;
   fill: #FE3A3B;
 }
@@ -314,5 +447,29 @@ body{
 .copy-footer {
   color: #929394;
   background-color: #18191A;
-  padding: 40px ;
+  padding: 30px ;
+}
+
+.box-icon-footer-p {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.icon-footer-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #929394;
+  height: 40px;
+  padding: 10px;
+  width: 40px;
+  margin: 5px;
+}
+
+.icon-footer-p:hover {
+  background-color: #FE3A3B;
+  border-radius: 50%;
+  fill: #FFFFFF;
+  
 }
