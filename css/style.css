@@ -141,6 +141,23 @@ header nav li:last-of-type {
   fill: #2e2e2e;
 }
 
+.bg-img-carrousel {
+  background-image: url('../img/section-1/chillingontherooftop.png');
+  position: relative;
+  background-size: cover;
+  background-position-y: center;
+  height:565px;
+}
+
+.bg-carrousel-p {
+  background: rgb(254,58,59);
+  background: linear-gradient(114deg, rgba(254,58,59,1) 0%, rgba(137,31,32,0.5130427170868348) 46%, rgba(0,0,0,1) 100%);  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
 .bg-gradient-p {
   background-image: url('../img/section-2/bg-services.png');
   background-repeat: no-repeat;
@@ -297,6 +314,11 @@ header nav li:last-of-type {
 
 .tab-chips-text:hover {
   color: #FFFFFF;
+}
+
+/*  esta regla modifica el modo :active de los chips en el tab*/
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #3BB840;
 }
 
 .card-pricing {
