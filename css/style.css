@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600&display=swap');
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: 'Raleway', sans-serif;
 }
@@ -58,10 +63,6 @@ body {
   width: 40px;
 }
 
-.icon-rrss-p :hover {
-  fill: #FE3A3B;
-  background-color: aqua;
-}
 
 .box-login {
   display: flex;
@@ -167,6 +168,10 @@ header nav li:last-of-type {
 .bg-red-p {
   background-color: #FE3A3B;
   padding-bottom: 20px;
+}
+
+.padding-card{
+  padding: 0;
 }
 
 .card-services {
@@ -298,6 +303,11 @@ header nav li:last-of-type {
   padding: 50px 0;
 }
 
+.img-web {
+  width: 100%;
+  margin: 30px 0;
+}
+
 .bg-tab-chips {
   background-color: #FE3A3B;
   border-radius: 0.25rem ;
@@ -325,6 +335,7 @@ header nav li:last-of-type {
   border: 2px solid #CECFD0;
   border-radius: 0px;
   transition-duration: 0.5s;
+  margin-bottom: 30px;
 }
 
 .card-pricing:hover {
@@ -340,6 +351,7 @@ header nav li:last-of-type {
 
 .box-title-pricing {
   border-bottom: 1px solid #CECFD0;
+  height: 115px;
 }
 
 .title-pricing {
@@ -379,6 +391,9 @@ header nav li:last-of-type {
   color:#FFFFFF
 }
 
+.img-member {
+  height: 350px;
+}
 .title-member{
   font-weight: 600;
 }
@@ -408,7 +423,7 @@ header nav li:last-of-type {
 
 
 .mg-card-offer {
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 .card-offer {
@@ -448,13 +463,16 @@ header nav li:last-of-type {
   background-size: cover;
   padding-bottom: 50px;
   position: relative;
-  height: 1930px;
 }
 
 .element-position {
   position: relative;
 }
-
+.tab-content>.active{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
 .bg-testimonial {
   background-image: url('../img/section-12/bg-testimonial.png');
