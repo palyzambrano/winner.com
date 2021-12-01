@@ -466,10 +466,17 @@ header nav li:last-of-type {
   padding-bottom: 50px;
   position: relative;
 }
+.size-img {
+  width: 300px;
+  height: 300px;
+  margin: 10px auto;
+  align-items: center;
+}
 
 .element-position {
   position: relative;
 }
+
 .tab-content>.active {
   display: flex;
   flex-wrap: wrap;
