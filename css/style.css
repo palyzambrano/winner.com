@@ -181,6 +181,7 @@ header nav li:last-of-type {
   background-image: url(../img/section-2/bg-services-card.png);
   background-repeat: no-repeat;
   background-size: contain;
+  height: 390px;
 }
 
 .card-services-title {
@@ -567,13 +568,51 @@ header nav li:last-of-type {
   .burgermenu{
     display: inline-block;
     background-color: #2e2e2e;
-    
   }
+
   .nav-bar{
     display: none;
   }
+
   .rrss-login{
   display: none;
+  }
+
+  header nav li:last-of-type{
+    margin-left: 0;
+  }
+
+  .card-wrapper {
+    width: 290px;
+    height: 390px;
+  }
+
+  .box-icon-footer-p {
+    justify-content: center;
+  }
+  .bg-testimonial{
+    height: 800px;
+  }
+
+  .box-testimonial {
+    margin: 70px auto;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .card-wrapper {
+    width: 290px;
+    height: 390px;
+    margin: 0 auto 20px auto;
+  }
+
+  .bg-testimonial{
+    height: 800px;
+  }
+
+  .box-testimonial {
+    margin: 40px auto;
+    width: 60%;
   }
 
 }
