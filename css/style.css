@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Raleway', sans-serif;
 }
@@ -46,7 +47,7 @@ body {
   padding: 0;
 }
 
-.box-rrss-p{
+.box-rrss-p {
   display: flex;
   justify-content: space-evenly;
 }
@@ -91,7 +92,7 @@ body {
   margin: 0;
 }
 
-.logo-primary svg{
+.logo-primary svg {
   fill: #FFFFFF;
 }
 
@@ -119,7 +120,7 @@ header nav li:last-of-type {
   width: 35px;
 }
 
-.icon-search-p  {
+.icon-search-p {
   height: 35px;
   transform: rotate(45deg);
   width: 35px;
@@ -133,12 +134,12 @@ header nav li:last-of-type {
   fill: #FFFFFF;
 }
 
-.icon-search-p:hover{
+.icon-search-p:hover {
   background-color: #CECFD0;
 }
 
 .icon-search-p:hover svg,
-.icon-search-p:hover svg:hover{
+.icon-search-p:hover svg:hover {
   fill: #2e2e2e;
 }
 
@@ -170,7 +171,7 @@ header nav li:last-of-type {
   padding-bottom: 20px;
 }
 
-.padding-card{
+.padding-card {
   padding: 0;
 }
 
@@ -394,7 +395,7 @@ header nav li:last-of-type {
 .img-member {
   height: 350px;
 }
-.title-member{
+.title-member {
   font-weight: 600;
 }
 
@@ -468,7 +469,7 @@ header nav li:last-of-type {
 .element-position {
   position: relative;
 }
-.tab-content>.active{
+.tab-content>.active {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -500,7 +501,7 @@ header nav li:last-of-type {
   position: relative;
 }
 
-.img-person-testimonial{
+.img-person-testimonial {
   border: 4px solid #FE3A3B;
   width: 250px;
   height: 250px;
@@ -552,4 +553,27 @@ header nav li:last-of-type {
   border-radius: 50%;
   fill: #FFFFFF;
   
+}
+
+.burgermenu{
+  display: none;
+}
+
+.rrss-login{
+
+}
+
+@media only screen and (max-width: 850px){
+  .burgermenu{
+    display: inline-block;
+    background-color: #2e2e2e;
+    
+  }
+  .nav-bar{
+    display: none;
+  }
+  .rrss-login{
+  display: none;
+  }
+
 }
